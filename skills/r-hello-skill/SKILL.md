@@ -1,5 +1,5 @@
 ---
-name: hello-skill
+name: r-hello-skill
 description: Use when verifying that a skills manager (such as Vercel's) can discover and install a skill from this repository. A minimal end-to-end smoke-test skill that confirms installation, loading, and invocation all work.
 ---
 
@@ -23,13 +23,13 @@ When NOT to use: real tasks. This skill does no work beyond confirming itself.
 
 When invoked, respond with a short confirmation that includes:
 
-1. The skill name (`hello-skill`)
+1. The skill name (`r-hello-skill`)
 2. A note that installation and invocation succeeded
 3. The repository it was installed from, if known
 
 Example response:
 
-> ✅ `hello-skill` loaded successfully. The skills manager installed and
+> ✅ `r-hello-skill` loaded successfully. The skills manager installed and
 > invoked this skill from the personal skills repository.
 
 That's it — no files to edit, no commands to run. Successful invocation IS the
