@@ -1,13 +1,13 @@
 ---
-name: r-explain-code
-description: Manual-only. Do NOT auto-trigger. Invoke ONLY when the user explicitly asks for this skill by name (e.g. /r-explain-code). Explains code with everyday analogies, ASCII diagrams, a step-by-step walkthrough, and a common-gotcha callout.
+name: ran:explain-code
+description: Manual-only. Do NOT auto-trigger. Invoke ONLY when the user explicitly asks for this skill by name (e.g. /ran:explain-code). Explains code with everyday analogies, ASCII diagrams, a step-by-step walkthrough, and a common-gotcha callout.
 ---
 
 # Explain Code
 
 ## When to Use
 
-Use this skill **only** when the user explicitly invokes it (e.g. `/r-explain-code`).
+Use this skill **only** when the user explicitly invokes it (e.g. `/ran:explain-code`).
 Do not self-select it for general "how does this work?" questions — answer those
 normally unless the user asks for this skill by name.
 

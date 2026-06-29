@@ -5,18 +5,22 @@ installed via Vercel's skills manager.
 
 ## Layout
 
-- Each skill lives in `skills/<name>/SKILL.md` (plus optional supporting files).
+- Each skill lives in `skills/<base-name>/SKILL.md` (plus optional supporting
+  files). The directory uses the bare base name (no prefix) — e.g.
+  `skills/hello-skill/`.
 - `SKILL.md` frontmatter requires `name` and `description` per the
   [agentskills.io spec](https://agentskills.io/specification).
 
 ## Naming Convention
 
-- **Prefix every skill name in this repo with `r-`** (e.g. `r-hello-skill`).
-  This applies to both the directory name and the frontmatter `name` field.
-- Rationale: standalone skills install into a flat namespace keyed by `name`
-  (`~/.agents/skills/<name>/`), with no per-author scoping. The `r-` prefix
-  marks skills authored in this repo and avoids collisions with third-party
-  skills of the same base name.
+- **Prefix every skill's frontmatter `name` with `ran:`** (e.g.
+  `ran:hello-skill`). The prefix applies to the `name` field only — the skill
+  directory uses the bare base name (`skills/hello-skill/`), since authorship is
+  already implied by this repo.
+- Rationale: standalone skills install into a flat namespace keyed by `name`,
+  with no per-author scoping. The `ran:` prefix namespaces skills authored in
+  this repo (mirroring the `plugin:skill` convention) and avoids collisions with
+  third-party skills of the same base name.
 
 ## Goals
 

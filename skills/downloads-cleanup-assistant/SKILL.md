@@ -1,5 +1,5 @@
 ---
-name: r-downloads-cleanup-assistant
+name: ran:downloads-cleanup-assistant
 description: Use when the user wants to clean up, reorganize, sort, declutter, bucket, or de-duplicate their Downloads folder (or another named directory). Triggers on requests to tidy loose files, organize downloads, or remove duplicate archives.
 ---
 
